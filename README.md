@@ -9,7 +9,7 @@
 
 ```txt
 - build:     部署后的配置文件缓存(重新部署时会自动生成)
-- *.userdb:  用户自定义词库
+- *.userdb:  用户自定义词库(重新部署时会自动生成)
 - dicts:     词库文件
 - lua:       lua 插件
 - opencc:    emoji 插件增强

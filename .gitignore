@@ -1,4 +1,6 @@
 build/*
+custom_dict_en.userdb/*
+custom_dict.userdb/*
 LOG
 LOG.*
 *.log
