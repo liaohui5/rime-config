@@ -1,0 +1,19 @@
+patch:
+  # 输入长度限制，避免卡死；参考：https://github.com/LawssssCat/rime-aurora
+  __include: code_limit:/patch
+  switches:
+    - name: ascii_mode
+      reset: 0
+      states: [中文, 英文]
+    - name: emoji_suggestion
+      reset: 1
+      states: ["😣️", "😁️"]
+    - name: full_shape
+      reset: 0
+      states: [半角, 全角]
+    - name: transcription
+      reset: 0
+      states: [简体, 繁体]
+    - name: ascii_punct
+      reset: 1
+      states: [。，, ．，]

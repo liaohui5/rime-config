@@ -1,0 +1,18 @@
+# 可以参考 build/squirrel.yaml
+# prettier-ignore
+patch:
+  "ascii_composer/good_old_caps_lock": true
+  "menu/page_size": 9        # 每页多少个候选项
+  "ascii_composer/switch_key":
+    Caps_Lock: commit_code   # shift(右) 切换中英文并且提交当前输入的字符
+    Control_L: noop          # 不做任何操作
+    Control_R: noop          # 不做任何操作
+    Shift_L: noop            # shift(左) 不做任何操作
+    Shift_R: commit_code     # shift(右) 切换中英文并且提交当前输入的字符
+  schema_list: 
+    - {schema: rime_mint}    # 薄荷拼音
+  "switcher/hotkeys": []
+  "translator/enable_encoder": true
+  "translator/enable_sentence": true
+  "translator/enable_user_dict": true
+  "translator/encode_commit_history": true
